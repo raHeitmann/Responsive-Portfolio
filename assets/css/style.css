@@ -267,6 +267,7 @@ You use 980px because you never want any of the content to be cut off. Since the
         background-color: lightgreen;
         width: 100%;
         overflow:auto;
+
       
 
     }
@@ -275,7 +276,8 @@ You use 980px because you never want any of the content to be cut off. Since the
     body {
         background-color: lightgreen;
         width: 100%;
-
+		box-sizing: border-box;
+		margin-bottom: 100px;
     }
 
 
@@ -283,16 +285,20 @@ You use 980px because you never want any of the content to be cut off. Since the
 #connectsection{
 	clear:both;
 	width: 100%;
- position:absolute;
+ position:relative;
  background-color: #ffffff;
  padding:10px;
  padding-left:20px;
  padding-bottom:20px;
+ bottom:10px;
+
+ float:left;
+
 
     right:0px;
 
-    margin-left:20px;
-    margin-top: 350px;
+    margin:0 auto;
+    margin-top: 10px;
 
 
 
