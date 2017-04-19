@@ -334,6 +334,7 @@ You use 980px because you never want any of the content to be cut off. Since the
 
     .mainsection {
 	
+	margin-top:2000px;
 	width: 100%;
 	height:1000px;
 	background-image: url(assets/images/cork-wallet.png);
@@ -344,9 +345,12 @@ You use 980px because you never want any of the content to be cut off. Since the
 
 }
 
+
+
 .container1 {
 
 	width:100%;
+	height:500px;
 
 
 }
@@ -355,7 +359,8 @@ You use 980px because you never want any of the content to be cut off. Since the
 
 	clear: both;
 	float: left;
-	
+	left:0;
+	bottom:0;
 
 
 
