@@ -329,7 +329,7 @@ You use 980px because you never want any of the content to be cut off. Since the
 }
 @media screen and (max-width: 640px) {
 			    body {
-					height:1040px;
+					height:1550px;
 			    	
 			    }
 
@@ -380,7 +380,7 @@ You use 980px because you never want any of the content to be cut off. Since the
 			 padding-left:20px;
 			 padding-bottom:20px;
 			 bottom:10px;
-			 top:560px;
+			 top:1100px;
 			
 			 float:left;
 
@@ -398,6 +398,7 @@ You use 980px because you never want any of the content to be cut off. Since the
 				position: absolute;
 				top:0px;
 				margin-bottom: 10px;
+				height:1100px;
 			}
 
 
@@ -408,7 +409,21 @@ You use 980px because you never want any of the content to be cut off. Since the
 				height: 220px;
 			}
 
+			#portbox1 {
+				margin:4px;
+			}
 
+			#portbox2 {
+				margin:4px;
+			}
+
+			#portbox3 {
+				margin:4px;
+			}
+
+			#portbox4 {
+				margin:4px;
+			}
 
 
 
