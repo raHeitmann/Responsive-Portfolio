@@ -273,54 +273,54 @@ You use 980px because you never want any of the content to be cut off. Since the
     }
 }
 @media screen and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
-        width: 100%;
-		box-sizing: border-box;
-		margin-bottom: 100px;
+				    body {
+				        background-color: lightgreen;
+				        width: 100%;
+						box-sizing: border-box;
+						margin-bottom: 100px;
 
-    }
+				    }
 
-  .mainsection {
+				  .mainsection {
 
-		height:850px;
-		width: 100%
+						height:850px;
+						width: 100%
 
-  }
+				  }
 
- .container1 {
+				 .container1 {
 
- 	width: 100%;
- }
-
-
-
-#connectsection{
-	clear:both;
-	width: 100%;
- position:relative;
- background-color: #ffffff;
- padding:10px;
- padding-left:20px;
- padding-bottom:20px;
- bottom:10px;
-
- float:left;
-
-
-    right:0px;
-
-    margin:0 auto;
-    margin-top: 10px;
+				 	width: 100%;
+				 }
 
 
 
-}
+				#connectsection{
+					clear:both;
+					width: 100%;
+				 position:relative;
+				 background-color: #ffffff;
+				 padding:10px;
+				 padding-left:20px;
+				 padding-bottom:20px;
+				 bottom:10px;
 
-#aboutsection {
-	width:100%;
-	margin-bottom: 30px;
-}
+				 float:left;
+
+
+				    right:0px;
+
+				    margin:0 auto;
+				    margin-top: 10px;
+
+
+
+				}
+
+				#aboutsection {
+					width:100%;
+					margin-bottom: 30px;
+				}
 
 
 
@@ -328,77 +328,91 @@ You use 980px because you never want any of the content to be cut off. Since the
 
 }
 @media screen and (max-width: 640px) {
-    body {
-        
-    }
+			    body {
 
-    .mainsection {
-	
-	margin-top:2000px;
-	width: 100%;
-	height:1000px;
-	background-image: url(assets/images/cork-wallet.png);
-	margin:0 auto;
-	position: relative;
-	margin-bottom: 400px;
+			    	
+			    }
+
+			    .mainsection {
+				
+				margin-top:2000px;
+				width: 100%;
+				height:1000px;
+				background-image: url(assets/images/cork-wallet.png);
+				margin:0 auto;
+				position: relative;
+				top:800px;
+				margin-bottom: 400px;
+
+
+			}
+
+
+
+
+
+			#linkbox {
+
+				clear: both;
+				float: left;
+				left:0;
+				position: relative;
+				top:200px;
+
+
+
+
+
+			}
+
+			.container1 {
+			overflow-y: visible;
+
+			}
+
+
+					#connectsection{
+				clear:both;
+				width: 100%;
+			 position:relative;
+			 background-color: #ffffff;
+			 padding:10px;
+			 padding-left:20px;
+			 padding-bottom:20px;
+			 bottom:10px;
+
+			 float:left;
+
+
+			    right:0px;
+
+			    margin:0 auto;
+			    margin-top: 10px;
+
+
+
+			}
+
+			#aboutsection {
+				width:100%;
+				position: relative;
+				margin-bottom: 10px;
+			}
+
+
+
+			.whitebox {
+
+
+				height: 1000px;
+			}
+
+
+
 
 
 }
 
-
-
-.container1 {
-
-	width:100%;
-	height:500px;
-
-
-}
-
-#linkbox {
-
-	clear: both;
-	float: left;
-	left:0;
-	bottom:0;
-
-
-
-}
-
-
-		#connectsection{
-	clear:both;
-	width: 100%;
- position:relative;
- background-color: #ffffff;
- padding:10px;
- padding-left:20px;
- padding-bottom:20px;
- bottom:10px;
-
- float:left;
-
-
-    right:0px;
-
-    margin:0 auto;
-    margin-top: 10px;
-
-
-
-}
-
-#aboutsection {
-	width:100%;
-	position: relative;
-	margin-bottom: 10px;
-}
-
-
-
-
-}
 
 
 
