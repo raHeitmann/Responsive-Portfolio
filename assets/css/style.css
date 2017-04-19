@@ -43,7 +43,7 @@ h2{
 
 
 .whitebox {
-	background-color:blue;
+	background-color:white;
 	height: 140px;
 	width:100%; 
 	margin:0 auto;
@@ -288,6 +288,11 @@ You use 980px because you never want any of the content to be cut off. Since the
 
   }
 
+ .container1 {
+
+ 	width: 100%;
+ }
+
 
 
 #connectsection{
@@ -324,7 +329,7 @@ You use 980px because you never want any of the content to be cut off. Since the
 }
 @media screen and (max-width: 640px) {
     body {
-        background-color: lightgreen;
+        
     }
 
     .mainsection {
@@ -347,6 +352,9 @@ You use 980px because you never want any of the content to be cut off. Since the
 }
 
 #linkbox {
+
+	clear: both;
+	float: left;
 	
 
 
